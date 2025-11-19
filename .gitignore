@@ -33,3 +33,6 @@ c-labs/lab_5/task5
 c-labs/lab_5/students.bin 
 c-labs/lab_5/task6
 c-labs/lab_5/task7
+
+rust-labs/lab_1/target
+rust-labs/lab_1/Cargo.lock
