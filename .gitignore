@@ -38,3 +38,30 @@ rust-labs/lab_1/target
 rust-labs/lab_1/Cargo.lock
 rust-labs/lab_2/target
 rust-labs/lab_2/Cargo.lock
+# === Rust / Cargo ===
+target/
+**/target/
+
+# === macOS ===
+.DS_Store
+
+# === VS Code ===
+.vscode/
+*.code-workspace
+
+# === Logs и временные файлы ===
+*.log
+
+# === Rust backups ===
+**/*.rs.bk
+
+# === Сборки и бинарники ===
+*.exe
+*.out
+*.dll
+*.dylib
+*.so
+
+# === Компиляция ===
+Cargo.lock
+

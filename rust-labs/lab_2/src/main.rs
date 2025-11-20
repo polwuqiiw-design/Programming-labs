@@ -249,6 +249,3 @@ fn main() {
     task6();
     task7();
 }
-
-
-
