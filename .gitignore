@@ -65,3 +65,43 @@ target/
 # === Компиляция ===
 Cargo.lock
 
+# === Rust / Cargo ===
+/target/
+/Cargo.lock
+
+# Если библиотека — оставьте Cargo.lock, но для бинарника он не нужен
+# У тебя проект — бинарник, поэтому Cargo.lock можно игнорировать.
+
+# === Файлы данных и временные файлы ===
+/library.json
+
+# === Логи, временные файлы, кеши ===
+*.log
+*.tmp
+*.swp
+*.swo
+
+# === macOS ===
+.DS_Store
+
+# === VS Code ===
+.vscode/
+*.code-workspace
+
+# === картинки и вспомогательные файлы, если не хочешь загружать в GitHub ===
+#img/
+# ===== C projects =====
+*/bin/
+*/obj/
+
+# ===== macOS =====
+.DS_Store
+
+# ===== VS Code =====
+.vscode/
+
+# ===== Temporary files =====
+*.log
+*.tmp
+
+
